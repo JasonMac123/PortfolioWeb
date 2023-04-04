@@ -2138,6 +2138,11 @@ html {
   margin-bottom: 3rem;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -2162,28 +2167,52 @@ html {
   width: 50%;
 }
 
-.w-10 {
-  width: 2.5rem;
+.w-10\/12 {
+  width: 83.333333%;
 }
 
 .w-11\/12 {
   width: 91.666667%;
 }
 
-.w-4\/6 {
-  width: 66.666667%;
+.w-4 {
+  width: 1rem;
 }
 
-.w-9\/12 {
-  width: 75%;
+.w-4\/6 {
+  width: 66.666667%;
 }
 
 .w-full {
   width: 100%;
 }
 
-.w-10\/12 {
-  width: 83.333333%;
+.w-12 {
+  width: 3rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.w-16 {
+  width: 4rem;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.w-40 {
+  width: 10rem;
+}
+
+.w-32 {
+  width: 8rem;
 }
 
 .-translate-y-1\/2 {
