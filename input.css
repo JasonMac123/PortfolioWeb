@@ -9,6 +9,12 @@
   }
 }
 
+@layer components {
+  .item-icon {
+    @apply relative flex items-center justify-center h-8 w-8 my-2 mx-auto shadow-lg;
+  }
+}
+
 .hover-underline-animation {
   display: inline-block;
   position: relative;

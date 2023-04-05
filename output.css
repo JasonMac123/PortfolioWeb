@@ -609,11 +609,6 @@ html {
   left: 0px;
 }
 
-.inset-x-\[15\%\] {
-  left: 15%;
-  right: 15%;
-}
-
 .\!left-auto {
   left: auto !important;
 }
@@ -646,10 +641,6 @@ html {
   bottom: 50%;
 }
 
-.bottom-5 {
-  bottom: 1.25rem;
-}
-
 .bottom-\[2px\] {
   bottom: 2px;
 }
@@ -666,10 +657,6 @@ html {
   left: 0.75rem;
 }
 
-.left-5 {
-  left: 1.25rem;
-}
-
 .left-\[calc\(50\%-1px\)\] {
   left: calc(50% - 1px);
 }
@@ -684,10 +671,6 @@ html {
 
 .right-2\.5 {
   right: 0.625rem;
-}
-
-.right-5 {
-  right: 1.25rem;
 }
 
 .right-7 {
@@ -799,11 +782,6 @@ html {
   margin-bottom: 0px;
 }
 
-.my-12 {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -851,8 +829,8 @@ html {
   margin-bottom: 10px;
 }
 
-.ml-40 {
-  margin-left: 10rem;
+.ml-20 {
+  margin-left: 5rem;
 }
 
 .ml-6 {
@@ -1143,10 +1121,6 @@ html {
   width: 0.75rem;
 }
 
-.w-3\/6 {
-  width: 50%;
-}
-
 .w-32 {
   width: 8rem;
 }
@@ -1169,6 +1143,10 @@ html {
 
 .w-7 {
   width: 1.75rem;
+}
+
+.w-7\/12 {
+  width: 58.333333%;
 }
 
 .w-8 {
@@ -1573,16 +1551,16 @@ html {
   justify-content: space-evenly;
 }
 
-.space-x-6 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
@@ -2160,6 +2138,10 @@ html {
   padding-top: 0.625rem;
 }
 
+.pt-4 {
+  padding-top: 1rem;
+}
+
 .pt-\[0\.37rem\] {
   padding-top: 0.37rem;
 }
@@ -2264,11 +2246,6 @@ html {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .text-xs {
@@ -3692,12 +3669,6 @@ html {
   .dark\:data-\[te-select-option-disabled\]\:text-gray-400[data-te-select-option-disabled] {
     --tw-text-opacity: 1;
     color: rgb(156 163 175 / var(--tw-text-opacity));
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:block {
-    display: block;
   }
 }
 
