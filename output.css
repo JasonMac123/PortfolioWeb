@@ -798,6 +798,11 @@ html {
   margin-bottom: 0px;
 }
 
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -924,8 +929,8 @@ html {
   margin-top: 3px;
 }
 
-.mr-12 {
-  margin-right: 3rem;
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .box-border {
@@ -2215,6 +2220,10 @@ html {
 
 .pt-\[0\.37rem\] {
   padding-top: 0.37rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
 }
 
 .text-left {
