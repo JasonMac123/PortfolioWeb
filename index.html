@@ -11,28 +11,40 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Oswald:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <script src="./node_modules/tw-elements/dist/js/index.min.js"></script>
   </head>
   <body class="bg-slate-100">
     <section class="bg-sky-600">
       <div class="flex space-x-6 justify-end w-11/12 py-5">
-        <h3 class="text-3xl italic hover-underline-animation links">About</h3>
-        <h3 class="text-3xl italic hover-underline-animation links">Skills</h3>
-        <h3 class="text-3xl italic hover-underline-animation links">
+        <h3 class="text-3xl italic hover-underline-animation links font-caveat">
+          About
+        </h3>
+        <h3 class="text-3xl italic hover-underline-animation links font-caveat">
+          Skills
+        </h3>
+        <h3 class="text-3xl italic hover-underline-animation links font-caveat">
           Projects
         </h3>
-        <h3 class="text-3xl italic hover-underline-animation links">
+        <h3 class="text-3xl italic hover-underline-animation links font-caveat">
           Contact Me
         </h3>
       </div>
     </section>
     <main>
       <div
-        class="bg-sky-600 bg-opacity-[0.8] w-1/2 rounded-lg mx-auto flex mt-32 mb-72 overflow-hidden"
+        class="bg-sky-600 bg-opacity-[0.8] w-1/2 rounded-lg mx-auto flex mt-32 mb-72 overflow-x-hidden"
         id="about"
       >
-        <div class="ml-20 mt-24">
-          <h2 class="text-5xl pt-4">Jason Mac</h2>
+        <div class="ml-20 mt-24 shrink">
+          <h2 class="text-7xl pt-4 mb-2 font-caveat">Jason Mac</h2>
           <h3 class="mb-8 inline-flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +60,7 @@
             </svg>
             Toronto, Ontario
           </h3>
-          <h4 class="w-[32rem] text-2xl mr-8">
+          <h4 class="w-[32rem] text-2xl mr-8 font-oswald">
             I am a fullstack web developer skilled in Javascript, React, and
             Python. I am eager to learn and tackle complex problems. A confident
             team player in collaborating and contributing to create successful
@@ -128,7 +140,7 @@
     </main>
     <div class="bg-emerald-300 py-40" id="skills">
       <div class="bg-white rounded-xl w-2/3 mx-auto space-y-4 p-12">
-        <h3 class="text-center text-4xl">My Toolkit!</h3>
+        <h3 class="text-center text-5xl font-caveat">My Toolkit!</h3>
         <div
           id="carouselExampleCaptions"
           class="relative"
@@ -458,7 +470,9 @@
       class="mx-auto w-2/3 bg-teal-200 bg-opacity-50 rounded-xl my-72"
       id="projects"
     >
-      <h2 class="text-2xl text-center pt-12">Checkout some of my projects!</h2>
+      <h2 class="text-5xl text-center pt-12 font-caveat">
+        Checkout some of my projects!
+      </h2>
       <div class="w-full flex justify-center">
         <div
           class="flex flex-col w-5/12 mb-2 shadow-lg dark:bg-neutral-700 bg-slate-100 p-9 m-9 rounded-lg"
@@ -470,12 +484,12 @@
                 class="absolute top-0 w-full h-0 group-hover:h-full group-hover:bg-zinc-800 group-hover:bg-opacity-70 transition-all duration-700"
               >
                 <h3
-                  class="text-center text-3xl text-white scale-0 group-hover:scale-100 delay-300 mt-8"
+                  class="text-center text-3xl text-white scale-0 group-hover:scale-100 delay-300 mt-8 font-oswald"
                 >
                   Gamers-Only
                 </h3>
                 <p
-                  class="text-center mx-auto w-2/3 scale-0 group-hover:scale-100 delay-300 text-white mt-4"
+                  class="text-center mx-auto w-2/3 scale-0 group-hover:scale-100 delay-300 text-white mt-4 font-oswald"
                 >
                   A dating app where gamers fellow gamers near their area
                   filtering through shared gaming interests and real-time chat
@@ -495,12 +509,12 @@
                 class="absolute top-0 w-full h-0 group-hover:h-full group-hover:bg-zinc-800 group-hover:bg-opacity-70 transition-all duration-700"
               >
                 <h3
-                  class="text-center text-3xl text-white scale-0 group-hover:scale-100 delay-300 mt-8"
+                  class="text-center text-3xl text-white scale-0 group-hover:scale-100 delay-300 mt-8 font-oswald"
                 >
                   Interview Scheduler
                 </h3>
                 <p
-                  class="text-center mx-auto mt-4 w-2/3 scale-0 group-hover:scale-100 delay-300 text-white"
+                  class="text-center mx-auto mt-4 w-2/3 scale-0 group-hover:scale-100 delay-300 text-white font-oswald"
                 >
                   An app where users could book interviews online real-time with
                   selected interviews. They can edit and delete scheduled
@@ -522,12 +536,12 @@
                 class="absolute top-0 w-full h-0 group-hover:h-full group-hover:bg-zinc-800 group-hover:bg-opacity-70 transition-all duration-700"
               >
                 <h3
-                  class="text-center text-3xl text-white scale-0 group-hover:scale-100 delay-300 mt-8"
+                  class="text-center text-3xl text-white scale-0 group-hover:scale-100 delay-300 mt-8 font-oswald"
                 >
                   Educational-Posting-Board
                 </h3>
                 <p
-                  class="text-center mx-auto mt-4 w-2/3 scale-0 group-hover:scale-100 delay-300 text-white"
+                  class="text-center mx-auto mt-4 w-2/3 scale-0 group-hover:scale-100 delay-300 text-white font-oswald"
                 >
                   An app where users can share educational resources to other
                   users on the platform. They can comment, like, and search for
@@ -547,7 +561,7 @@
         <div class="flex">
           <div>
             <div class="flex justify-center space-x-4">
-              <h3 class="text-4xl pt-1">Let's Connect!</h3>
+              <h3 class="text-4xl pt-1 font-caveat">Let's Connect!</h3>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -563,9 +577,10 @@
                 />
               </svg>
             </div>
-            <p class="mt-12 mx-auto w-5/6">
-              If you ever want to grab a coffee/bubble tea (virtually) or just
-              want a quick chat, send me a message using your email!
+            <p class="mt-12 mx-auto w-5/6 font-oswald text-3xl">
+              If you ever want to grab a coffee/bubble tea (virtually), want a
+              quick chat or even talk about code and programming send me a
+              message using your email!
             </p>
           </div>
           <div class="w-3/4 max-w-xl mx-auto px-3 lg:px-6 shrink-0">
@@ -617,10 +632,12 @@
         <div
           class="flex space-x-6 mx-auto justify-center py-2 border-b-2 w-1/3 border-white"
         >
-          <h3 class="text-3xl italic hover-underline-animation">
+          <h3 class="text-3xl italic hover-underline-animation font-caveat">
             Developed by Jason Mac
           </h3>
-          <h3 class="text-3xl italic hover-underline-animation">@JasonMac</h3>
+          <h3 class="text-3xl italic hover-underline-animation font-caveat">
+            @JasonMac
+          </h3>
         </div>
         <div class="flex justify-center space-x-4 pt-4">
           <a href="http://linkedin.com/in/jason-mac">

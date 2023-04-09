@@ -1366,6 +1366,10 @@ html {
   flex-shrink: 0;
 }
 
+.shrink {
+  flex-shrink: 1;
+}
+
 .grow {
   flex-grow: 1;
 }
@@ -1678,6 +1682,10 @@ html {
 
 .overflow-x-hidden {
   overflow-x: hidden;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
 }
 
 .scroll-smooth {
@@ -2325,6 +2333,14 @@ html {
   vertical-align: bottom;
 }
 
+.font-caveat {
+  font-family: Caveat, cursive;
+}
+
+.font-oswald {
+  font-family: Oswald, sans-serif;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -2342,6 +2358,11 @@ html {
 
 .text-5xl {
   font-size: 3rem;
+  line-height: 1;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
   line-height: 1;
 }
 
