@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jason Mac - Portfolio</title>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <link href="./output.css" rel="stylesheet" />
     <link
       rel="stylesheet"
@@ -16,14 +16,20 @@
   <body class="bg-slate-100">
     <section class="bg-sky-600">
       <div class="flex space-x-6 justify-end w-11/12 py-5">
-        <h3 class="text-3xl italic hover-underline-animation">About</h3>
-        <h3 class="text-3xl italic hover-underline-animation">Skills</h3>
-        <h3 class="text-3xl italic hover-underline-animation">Contact Me</h3>
+        <h3 class="text-3xl italic hover-underline-animation links">About</h3>
+        <h3 class="text-3xl italic hover-underline-animation links">Skills</h3>
+        <h3 class="text-3xl italic hover-underline-animation links">
+          Projects
+        </h3>
+        <h3 class="text-3xl italic hover-underline-animation links">
+          Contact Me
+        </h3>
       </div>
     </section>
     <main>
       <div
-        class="bg-sky-600 bg-opacity-[0.8] w-1/2 rounded-lg mx-auto flex mt-60 mb-72 overflow-hidden"
+        class="bg-sky-600 bg-opacity-[0.8] w-1/2 rounded-lg mx-auto flex mt-32 mb-72 overflow-hidden"
+        id="about"
       >
         <div class="ml-20 mt-24">
           <h2 class="text-5xl pt-4">Jason Mac</h2>
@@ -120,7 +126,7 @@
         <img src="./images/Personal.png" />
       </div>
     </main>
-    <div class="bg-emerald-300 py-40">
+    <div class="bg-emerald-300 py-40" id="skills">
       <div class="bg-white rounded-xl w-2/3 mx-auto space-y-4 p-12">
         <h3 class="text-center text-4xl">My Toolkit!</h3>
         <div
@@ -448,7 +454,10 @@
         </div>
       </div>
     </div>
-    <div class="mx-auto w-2/3 bg-teal-200 bg-opacity-50 rounded-xl my-72">
+    <div
+      class="mx-auto w-2/3 bg-teal-200 bg-opacity-50 rounded-xl my-72"
+      id="projects"
+    >
       <h2 class="text-2xl text-center pt-12">Checkout some of my projects!</h2>
       <div class="w-full flex justify-center">
         <div
@@ -533,6 +542,7 @@
     <div class="bg-sky-300 py-28">
       <section
         class="text-gray-800 bg-white px-4 py-16 w-2/3 mx-auto rounded-lg"
+        id="contact"
       >
         <div class="flex">
           <div>
